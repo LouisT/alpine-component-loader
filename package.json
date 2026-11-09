@@ -218,23 +218,23 @@
     },
     "homepage": "https://github.com/LouisT/alpine-component-loader#readme",
     "devDependencies": {
-        "@alpinejs/csp": "3.17.4",
-        "@axe-core/playwright": "4.13.0",
-        "@playwright/test": "1.64.0",
-        "@types/node": "^26.6.5",
+        "@alpinejs/csp": "3.17.5",
+        "@axe-core/playwright": "4.14.0",
+        "@playwright/test": "1.65.0",
+        "@types/node": "^26.6.6",
         "@webcomponents/webcomponentsjs": "2.8.0",
         "alpinejs-314": "npm:alpinejs@3.14.0",
         "alpinejs-pinned": "npm:alpinejs@3.17.4",
         "fast-check": "4.10.2",
-        "playwright": "1.64.0",
-        "playwright-core": "1.64.0",
+        "playwright": "1.65.0",
+        "playwright-core": "1.65.0",
         "prettier": "3.9.10",
         "typescript": "7.0.2",
-        "vite": "8.3.4"
+        "vite": "8.3.6"
     },
     "optionalDependencies": {
-        "@swc/core": "^1.16.18",
-        "parse5": "^8.0.1"
+        "@swc/core": "^1.16.22",
+        "parse5": "^8.1.0"
     },
     "allowScripts": {
         "@swc/core@1.16.18": true,
