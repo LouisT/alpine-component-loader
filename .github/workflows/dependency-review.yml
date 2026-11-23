@@ -15,7 +15,7 @@ jobs:
         run: echo "Dependency review is disabled because GitHub Advanced Security is not enabled. Set ACL_DEPENDENCY_REVIEW_ENABLED=true after enabling it."
       - uses: actions/checkout@v7.0.1
         if: vars.ACL_DEPENDENCY_REVIEW_ENABLED == 'true'
-      - uses: actions/dependency-review-action@v5.0.0
+      - uses: actions/dependency-review-action@v5.0.1
         if: vars.ACL_DEPENDENCY_REVIEW_ENABLED == 'true'
         with:
           fail-on-severity: moderate
